@@ -19,13 +19,15 @@
 		#wrap{width:1200px; margin:auto; padding:0; margin-top: 2em;margin-bottom: 5em; background:#DDD}
 		#wrap .item{ display: block; width:300px; height:300px;list-style-type: none;padding-top:35px;float: left; transition: all 1s cubic-bezier(0,.52,.26,1);}
 		#wrap .item:hover { }
-		#wrap .item:hover p{ font-weight: bold; }
+		#wrap .item:hover p{ font-weight: normal; opacity: 0.5; }
+		#wrap .item:hover p.author{ opacity: 1; font-weight: bold;}
 		#wrap .item:hover .img{ border-radius: 0; width:170px ; height:170px;}
 		#wrap .item:hover .img img{height:210px; }
 
 		#wrap .item .img{display: block; width:200px;height:200px; overflow: hidden; border-radius: 50%; margin:auto; transition: all 1s cubic-bezier(0,.52,.26,1);}
 		#wrap .item .img img{height:200px; display: block;position: relative;transition: all 1s cubic-bezier(0,.52,.26,1);}
-		#wrap p{width:200px; margin:auto; margin-top: 1em; text-align: center;margin-bottom: 1em;}
+		#wrap p{width:200px; margin:auto; margin-top: 1em; text-align: center;margin-bottom: 0.5em; font-weight: bold;}
+		#wrap p.author{margin-top: 0.5em; opacity: 0; transition: all 1s cubic-bezier(0,.52,.26,1);}
 		footer{width: 100%; background: #DDD; height:400px;}
 		footer p{text-align: center; font-weight: bold;padding-top: 3em;}
 	</style>
@@ -35,26 +37,7 @@
 		<h1>디지털퍼블리싱1 중간과제전</h1>
 	</header>
 	<ul id="wrap">
-		<li class="item">
-			<a href="https://kwonku.github.io/hyukoh6/" target="_blank">
-				<span class="img">
-					<img src="https://kwonku.github.io/hyukoh6/l1.png" style="left:-60px;height:250px;top:-20px;">
-				</span>
-				<p class="title">
-					밴드 혁오
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://raylit.github.io/compose/" target="_blank">
-				<span class="img">
-					<img src="https://raylit.github.io/compose/thumbnail.png" style="left:-80px;">
-				</span>
-				<p class="title">
-					한경대 록 밴드 '카인'
-				</p>
-			</a>
-		</li>
+		
 		<li class="item">
 			<a href="https://ssarbkimbo12.github.io/allabouthanok__/" target="_blank">
 				<span class="img">
@@ -63,6 +46,7 @@
 				<p class="title">
 					all about hanok
 				</p>
+				<p class="author">김보경</p>
 			</a>
 		</li>
 		<li class="item">
@@ -73,146 +57,7 @@
 				<p class="title">
 					Defence Mechanism
 				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://sjw03115.github.io/fin2/" target="_blank">
-				<span class="img">
-					<img src="https://sjw03115.github.io/fin2/img/ti.png" style="left:0px;">
-				</span>
-				<p class="title">
-					psychopath gamer
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://ghkdgus0716.github.io/WhatIsBlackComedy" target="_blank">
-				<span class="img">
-					<img src="https://ghkdgus0716.github.io/WhatIsBlackComedy/chal.jpg" style="left:-65px;">
-				</span>
-				<p class="title">
-					Black Comedy
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://eujungk119.github.io/guncontrolgun/" target="_blank">
-				<span class="img">
-					<img src="https://eujungk119.github.io/guncontrolgun/img.jpg" style="left:0px;">
-				</span>
-				<p class="title">
-					미국 총기난사사건
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://dmsqlcsz.github.io/kyo/" target="_blank">
-				<span class="img">
-					<img src="https://dmsqlcsz.github.io/kyo/image.png" style="left:0px;">
-				</span>
-				<p class="title">
-					쿄토 애니메이션
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://chojaeyun.github.io/Samfeldt_Semi-final/" target="_blank">
-				<span class="img">
-					<img src="https://chojaeyun.github.io/Samfeldt_Semi-final/11.jpg" style="left:0px;">
-				</span>
-				<p class="title">
-					WHO I AM : Sam Fedlt
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://lahmgaa.github.io/0423/" target="_blank">
-				<span class="img">
-					<img src="https://lahmgaa.github.io/0423/mc16.PNG" style="left:-20px;">
-				</span>
-				<p class="title">
-					No. 16
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://kongbyungha.github.io/midterm_opengraph/" target="_blank">
-				<span class="img">
-					<img src="https://kongbyungha.github.io/midterm_opengraph/1.png" style="left:-10px;">
-				</span>
-				<p class="title">
-					B It'em
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://kimjaewww.github.io/1234567/" target="_blank">
-				<span class="img">
-					<img src="https://kimjaewww.github.io/1234567/456.jpg" style="left:0px;">
-				</span>
-				<p class="title">
-					Paul Gaugain
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://daeunshin.github.io/page1/" target="_blank">
-				<span class="img">
-					<img src="https://daeunshin.github.io/page1/thumbnail.png" style="left:0px;">
-				</span>
-				<p class="title">
-					The truth that we should remember
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://jiean80.github.io/mfinal/" target="_blank">
-				<span class="img">
-					<img src="https://jiean80.github.io/mfinal/thumbnail.jpg" style="left:0px;">
-				</span>
-				<p class="title">
-					ALFRED HITCHCOCK
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://baeyuna.github.io/macaron-mobile2/" target="_blank">
-				<span class="img">
-					<img src="https://baeyuna.github.io/macaron-mobile2/img/thumbnail.jpg" style="left:0px;">
-				</span>
-				<p class="title">
-					MACARON LOVE
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://chaeyounglee.github.io/Choose_Your_Steak-/" target="_blank">
-				<span class="img">
-					<img src="https://chaeyounglee.github.io/Choose_Your_Steak-/Sumnail.png" style="left:0px;">
-				</span>
-				<p class="title">
-					Choose your steak!
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://kimsurn.github.io/180424/" target="_blank">
-				<span class="img">
-					<img src="https://kimsurn.github.io/180424/img/opengraph.png" style="left:0px;">
-				</span>
-				<p class="title">
-					Trick or Treat
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://kim50.github.io/dream_dairy/" target="_blank">
-				<span class="img">
-					<img src="https://kim50.github.io/dream_dairy/s.png" style="left:0px;">
-				</span>
-				<p class="title">
-					Dream Diary
-				</p>
+				<p class="author">임정주</p>
 			</a>
 		</li>
 		<li class="item">
@@ -223,66 +68,18 @@
 				<p class="title">
 					Lana Del Rey
 				</p>
+				<p class="author">김태유</p>
 			</a>
 		</li>
 		<li class="item">
-			<a href="https://seoojing.github.io/VanGogh_Story/" target="_blank">
+			<a href="https://kim50.github.io/dream_dairy/" target="_blank">
 				<span class="img">
-					<img src="https://seoojing.github.io/VanGogh_Story/img/thumb.jpg" style="left:0px;">
+					<img src="https://kim50.github.io/dream_dairy/s.png" style="left:0px;">
 				</span>
 				<p class="title">
-					Van Gogh
+					Dream Diary
 				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://akwhsl.github.io/20180424_2/" target="_blank">
-				<span class="img">
-					<img src="https://akwhsl.github.io/20180424_2/athena.png" style="left:30px;">
-				</span>
-				<p class="title">
-					전쟁의 여신
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://zzzziu.github.io/Calligraphy-realreal.fin/" target="_blank">
-				<span class="img">
-					<img src="https://zzzziu.github.io/Calligraphy-realreal.fin/title-img.jpg" style="left:0px;">
-				</span>
-				<p class="title">
-					캘리그라피
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://wooung-b.github.io/movie-thelobster/" target="_blank">
-				<span class="img">
-					<img src="https://wooung-b.github.io/movie-thelobster/img2/thumbnail.jpg" style="left:0px;">
-				</span>
-				<p class="title">
-					The Lobster
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://pangtthing.github.io/arashifinal/" target="_blank">
-				<span class="img">
-					<img src="https://pangtthing.github.io/arashifinal/img/1.png" style="left:-100px;">
-				</span>
-				<p class="title">
-					아라시의 무대연출
-				</p>
-			</a>
-		</li>
-		<li class="item">
-			<a href="https://jungaram.github.io/20180508_2/" target="_blank">
-				<span class="img">
-					<img src="https://jungaram.github.io/20180508_2/img/DMDKD.png" style="left:-90px;">
-				</span>
-				<p class="title">
-					Shear Madness
-				</p>
+				<p class="author">이서인</p>
 			</a>
 		</li>
 		<li class="item">
@@ -293,6 +90,238 @@
 				<p class="title">
 					퇴행하는 인간
 				</p>
+				<p class="author">현은서</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://seoojing.github.io/VanGogh_Story/" target="_blank">
+				<span class="img">
+					<img src="https://seoojing.github.io/VanGogh_Story/img/thumb.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					Van Gogh
+				</p>
+				<p class="author">서재현</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://ghkdgus0716.github.io/WhatIsBlackComedy" target="_blank">
+				<span class="img">
+					<img src="https://ghkdgus0716.github.io/WhatIsBlackComedy/chal.jpg" style="left:-65px;">
+				</span>
+				<p class="title">
+					Black Comedy
+				</p>
+				<p class="author">황현지</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://eujungk119.github.io/guncontrolgun/" target="_blank">
+				<span class="img">
+					<img src="https://eujungk119.github.io/guncontrolgun/img.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					미국 총기난사사건
+				</p>
+				<p class="author">김유정</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://dmsqlcsz.github.io/kyo/" target="_blank">
+				<span class="img">
+					<img src="https://dmsqlcsz.github.io/kyo/image.png" style="left:0px;">
+				</span>
+				<p class="title">
+					쿄토 애니메이션
+				</p>
+				<p class="author">김보연</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://chojaeyun.github.io/Samfeldt_Semi-final/" target="_blank">
+				<span class="img">
+					<img src="https://chojaeyun.github.io/Samfeldt_Semi-final/11.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					WHO I AM : Sam Fedlt
+				</p>
+				<p class="author">조재윤</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://lahmgaa.github.io/0423/" target="_blank">
+				<span class="img">
+					<img src="https://lahmgaa.github.io/0423/mc16.PNG" style="left:-20px;">
+				</span>
+				<p class="title">
+					No. 16
+				</p>
+				<p class="author">허가람</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://sjw03115.github.io/fin2/" target="_blank">
+				<span class="img">
+					<img src="https://sjw03115.github.io/fin2/img/ti.png" style="left:0px;">
+				</span>
+				<p class="title">
+					psychopath gamer
+				</p>
+				<p class="author">정슬지</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://akwhsl.github.io/20180424_2/" target="_blank">
+				<span class="img">
+					<img src="https://akwhsl.github.io/20180424_2/athena.png" style="left:30px;">
+				</span>
+				<p class="title">
+					전쟁의 여신
+				</p>
+				<p class="author">심혜윤</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://kongbyungha.github.io/midterm_opengraph/" target="_blank">
+				<span class="img">
+					<img src="https://kongbyungha.github.io/midterm_opengraph/1.png" style="left:-10px;">
+				</span>
+				<p class="title">
+					B It'em
+				</p>
+				<p class="author">공병하</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://kimjaewww.github.io/1234567/" target="_blank">
+				<span class="img">
+					<img src="https://kimjaewww.github.io/1234567/456.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					Paul Gaugain
+				</p>
+				<p class="author">김재원</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://daeunshin.github.io/page1/" target="_blank">
+				<span class="img">
+					<img src="https://daeunshin.github.io/page1/thumbnail.png" style="left:0px;">
+				</span>
+				<p class="title">
+					The truth that we should remember
+				</p>
+				<p class="author">신다은</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://jiean80.github.io/mfinal/" target="_blank">
+				<span class="img">
+					<img src="https://jiean80.github.io/mfinal/thumbnail.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					ALFRED HITCHCOCK
+				</p>
+				<p class="author">김지윤</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://baeyuna.github.io/macaron-mobile2/" target="_blank">
+				<span class="img">
+					<img src="https://baeyuna.github.io/macaron-mobile2/img/thumbnail.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					MACARON LOVE
+				</p>
+				<p class="author">배유나</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://chaeyounglee.github.io/Choose_Your_Steak-/" target="_blank">
+				<span class="img">
+					<img src="https://chaeyounglee.github.io/Choose_Your_Steak-/Sumnail.png" style="left:0px;">
+				</span>
+				<p class="title">
+					Choose your steak!
+				</p>
+				<p class="author">이채영</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://kimsurn.github.io/180424/" target="_blank">
+				<span class="img">
+					<img src="https://kimsurn.github.io/180424/img/opengraph.png" style="left:0px;">
+				</span>
+				<p class="title">
+					Trick or Treat
+				</p>
+				<p class="author">김수련</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://zzzziu.github.io/Calligraphy-realreal.fin/" target="_blank">
+				<span class="img">
+					<img src="https://zzzziu.github.io/Calligraphy-realreal.fin/title-img.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					캘리그라피
+				</p>
+				<p class="author">윤지우</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://wooung-b.github.io/movie-thelobster/" target="_blank">
+				<span class="img">
+					<img src="https://wooung-b.github.io/movie-thelobster/img2/thumbnail.jpg" style="left:0px;">
+				</span>
+				<p class="title">
+					The Lobster
+				</p>
+				<p class="author">이원비</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://kwonku.github.io/hyukoh6/" target="_blank">
+				<span class="img">
+					<img src="https://kwonku.github.io/hyukoh6/l1.png" style="left:-60px;height:250px;top:-20px;">
+				</span>
+				<p class="title">
+					밴드 혁오
+				</p>
+				<p class="author">권구민</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://raylit.github.io/compose/" target="_blank">
+				<span class="img">
+					<img src="https://raylit.github.io/compose/thumbnail.png" style="left:-80px;">
+				</span>
+				<p class="title">
+					한경대 록 밴드 '카인'
+				</p>
+				<p class="author">장성훈</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://pangtthing.github.io/arashifinal/" target="_blank">
+				<span class="img">
+					<img src="https://pangtthing.github.io/arashifinal/img/1.png" style="left:-100px;">
+				</span>
+				<p class="title">
+					아라시의 무대연출
+				</p>
+				<p class="author">이혜정</p>
+			</a>
+		</li>
+		<li class="item">
+			<a href="https://jungaram.github.io/20180508_2/" target="_blank">
+				<span class="img">
+					<img src="https://jungaram.github.io/20180508_2/img/DMDKD.png" style="left:-90px;">
+				</span>
+				<p class="title">
+					Shear Madness
+				</p>
+				<p class="author">정아람</p>
 			</a>
 		</li>
 		<li class="item">
@@ -303,6 +332,7 @@
 				<p class="title">
 					오사카-5일간의 여행일지
 				</p>
+				<p class="author">김대현</p>
 			</a>
 		</li>
 		<li class="item">
@@ -313,9 +343,10 @@
 				<p class="title">
 					constellation
 				</p>
+				<p class="author">정상우</p>
 			</a>
 		</li>
-		<li class="item">
+		<!--<li class="item">
 			<a href="https://jdawoon.github.io/0508/" target="_blank">
 				<span class="img">
 					<img src="https://jdawoon.github.io/0508/img/mudo.jpg" style="left:0px;">
@@ -323,6 +354,7 @@
 				<p class="title">
 					무한도전
 				</p>
+				<p class="author">박수진</p>
 			</a>
 		</li>
 		<li class="item">
@@ -334,7 +366,7 @@
 					Jeebanoff
 				</p>
 			</a>
-		</li>
+		</li>-->
 
 		<li style="list-style-type:none;clear: both;"></li>
 	</ul>
